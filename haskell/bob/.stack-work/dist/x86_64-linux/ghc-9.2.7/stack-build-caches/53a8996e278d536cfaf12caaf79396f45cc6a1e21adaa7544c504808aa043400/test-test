@@ -1,0 +1,14 @@
+/home/ricmaps_/.ghcup/ghc/9.2.7/lib/ghc-9.2.7/include/ghcversion.h:
+  hash: d590b76d2d5f98f01894882dc106d920a101f52edb6a09b9a7f8dc701b075565
+/home/ricmaps_/exercism/haskell/bob/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/test/autogen/Paths_bob.hs:
+  hash: 37484e010e92c19eaa237500917e14ebbcaeb0c726781923781dd1d80938174e
+/home/ricmaps_/exercism/haskell/bob/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/test/autogen/cabal_macros.h:
+  hash: 500e004c75f1dd976db1a7982465a470c714283f339de76bc14fba81c0fd8174
+/home/ricmaps_/exercism/haskell/bob/bob.cabal:
+  hash: f481a0d9b52f6e8496e8843d8ca70c2a7b8912c24b62d70862529207b0e08185
+/home/ricmaps_/exercism/haskell/bob/package.yaml:
+  hash: fdbe34943408486a1bea988085ad4b25d582690cac37d8a14acf12386796af4d
+/home/ricmaps_/exercism/haskell/bob/test/Tests.hs:
+  hash: 195fcd7abe2c3d029d95156d4df3e14758cf8334074ea62439d1d6f7a2c19ec0
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

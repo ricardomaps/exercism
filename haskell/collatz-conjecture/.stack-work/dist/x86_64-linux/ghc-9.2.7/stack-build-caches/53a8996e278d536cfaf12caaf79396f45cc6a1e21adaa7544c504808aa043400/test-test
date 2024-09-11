@@ -1,0 +1,14 @@
+/home/ricmaps_/.ghcup/ghc/9.2.7/lib/ghc-9.2.7/include/ghcversion.h:
+  hash: d590b76d2d5f98f01894882dc106d920a101f52edb6a09b9a7f8dc701b075565
+? /home/ricmaps_/exercism/haskell/collatz-conjecture/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/test/autogen/Paths_collatz_conjecture.hs
+: hash: 3e19bb18154b6f19c39cd4190528bd10fed9e4d068dbb44c2d725be2bb4b2237
+/home/ricmaps_/exercism/haskell/collatz-conjecture/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/test/autogen/cabal_macros.h:
+  hash: 673f8815224294d9d5e14084f2ecbc7a48fd6a2564dd1ea235e0c47fe5b0fbaf
+/home/ricmaps_/exercism/haskell/collatz-conjecture/collatz-conjecture.cabal:
+  hash: 02941aca92a9608030a8efaf6dd6d474233f3f12923c66d2a604525dbeab9c52
+/home/ricmaps_/exercism/haskell/collatz-conjecture/package.yaml:
+  hash: e04e546810251e29e1b3a5bae523e047724b2e3b36899b4d241b93721a71f1a4
+/home/ricmaps_/exercism/haskell/collatz-conjecture/test/Tests.hs:
+  hash: e346b85bf77320431cbf70c8fa49bf945db2859fd5a500636b049d4c44bc9e4c
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

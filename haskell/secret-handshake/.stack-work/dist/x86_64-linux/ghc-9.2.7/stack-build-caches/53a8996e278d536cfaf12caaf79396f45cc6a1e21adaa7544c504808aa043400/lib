@@ -1,0 +1,14 @@
+/home/ricmaps_/.ghcup/ghc/9.2.7/lib/ghc-9.2.7/include/ghcversion.h:
+  hash: d590b76d2d5f98f01894882dc106d920a101f52edb6a09b9a7f8dc701b075565
+/home/ricmaps_/exercism/haskell/secret-handshake/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/autogen/Paths_secret_handshake.hs:
+  hash: 187e06eb65d84cb27d7e98ce5227e06ff3b13641ee5573fa065e5c3545591b41
+/home/ricmaps_/exercism/haskell/secret-handshake/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/autogen/cabal_macros.h:
+  hash: 8b2f06ed95a58f55fa4251b7a232506a8ba433c1a7127b0cd4cbf2b88b93f164
+/home/ricmaps_/exercism/haskell/secret-handshake/package.yaml:
+  hash: 5cdc888731e0dd89d56a8ac6a8c18b4a2cd8a9ddf238884046244093a9915f17
+/home/ricmaps_/exercism/haskell/secret-handshake/secret-handshake.cabal:
+  hash: cc8348546453bd0c8adfd449b18fc786471e7719ced8b856255ba45827ea8cd7
+/home/ricmaps_/exercism/haskell/secret-handshake/src/SecretHandshake.hs:
+  hash: c967dcf91c6cc3be482a1e565d84707e7c3d82367cee3f0cf32a6c929911c8ce
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3
