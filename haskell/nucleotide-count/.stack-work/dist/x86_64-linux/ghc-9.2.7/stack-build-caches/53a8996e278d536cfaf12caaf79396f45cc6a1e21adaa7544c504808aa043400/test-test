@@ -1,0 +1,14 @@
+/home/ricmaps_/.ghcup/ghc/9.2.7/lib/ghc-9.2.7/include/ghcversion.h:
+  hash: d590b76d2d5f98f01894882dc106d920a101f52edb6a09b9a7f8dc701b075565
+? /home/ricmaps_/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/test/autogen/Paths_nucleotide_count.hs
+: hash: 7e2396d4a3da3bda3e3d7826b38552c9790d97657286474cbb939563d27de132
+/home/ricmaps_/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux/ghc-9.2.7/build/test/autogen/cabal_macros.h:
+  hash: 3920cc4be628c571b36af2b2a9b4eacb9cdb84b0d2356a98a7403822e4a01729
+/home/ricmaps_/exercism/haskell/nucleotide-count/nucleotide-count.cabal:
+  hash: cd53c1608212e7ad08d7481cac65f3805d7ae502006bd511c8c585c1cc4acf3a
+/home/ricmaps_/exercism/haskell/nucleotide-count/package.yaml:
+  hash: a9addd79532906f9ac795239d06df65176d38dadf35821e65efed3b7d93b19da
+/home/ricmaps_/exercism/haskell/nucleotide-count/test/Tests.hs:
+  hash: d328cf58d6cc41aa47008a96320fba7227875365062ad31ce0073ac829252029
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3
