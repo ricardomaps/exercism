@@ -1,5 +1,5 @@
 defmodule NucleotideCount do
-  @nucleotides [?A, ?C, ?G, ?T]
+  @nucleotides %{?A => 0, ?C => 0, ?G => 0, ?T => 0}
 
   @doc """
   Counts individual nucleotides in a DNA strand.
@@ -14,6 +14,7 @@ defmodule NucleotideCount do
   """
   @spec count(charlist(), char()) :: non_neg_integer()
   def count(strand, nucleotide) do
+    Enum.count(strand, fn n -> n == nucleotide end)
   end
 
   @doc """
@@ -26,5 +27,6 @@ defmodule NucleotideCount do
   """
   @spec histogram(charlist()) :: map()
   def histogram(strand) do
+    Map.merge(@nucleotides, Enum.frequencies(strand))
   end
 end

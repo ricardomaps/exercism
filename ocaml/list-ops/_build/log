@@ -1,0 +1,29 @@
+# dune runtest
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/ricmaps_/.cache/dune/db
+# Workspace root: /home/ricmaps_/exercism/ocaml/list-ops
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/ricmaps_/exercism/ocaml/list-ops/_build/default"
+#        }
+#  ; instrument_with = []
+#  }
+$ /home/ricmaps_/.opam/default/bin/ocamlc.opt -config > /tmp/dune_6d3eaa_output
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamldep.opt -modules -impl test.ml) > _build/default/.test.eobjs/test.impl.d
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamldep.opt -modules -intf list_ops.mli) > _build/default/.test.eobjs/list_ops.intf.d
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamldep.opt -modules -impl list_ops.ml) > _build/default/.test.eobjs/list_ops.impl.d
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .test.eobjs/byte -I /home/ricmaps_/.opam/default/lib/base -I /home/ricmaps_/.opam/default/lib/base/base_internalhash_types -I /home/ricmaps_/.opam/default/lib/base/caml -I /home/ricmaps_/.opam/default/lib/base/shadow_stdlib -I /home/ricmaps_/.opam/default/lib/ocaml/unix -I /home/ricmaps_/.opam/default/lib/ounit2 -I /home/ricmaps_/.opam/default/lib/ounit2/advanced -I /home/ricmaps_/.opam/default/lib/seq -I /home/ricmaps_/.opam/default/lib/sexplib0 -I /home/ricmaps_/.opam/default/lib/stdlib-shims -no-alias-deps -opaque -o .test.eobjs/byte/list_ops.cmi -c -intf list_ops.mli)
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .test.eobjs/byte -I .test.eobjs/native -I /home/ricmaps_/.opam/default/lib/base -I /home/ricmaps_/.opam/default/lib/base/base_internalhash_types -I /home/ricmaps_/.opam/default/lib/base/caml -I /home/ricmaps_/.opam/default/lib/base/shadow_stdlib -I /home/ricmaps_/.opam/default/lib/ocaml/unix -I /home/ricmaps_/.opam/default/lib/ounit2 -I /home/ricmaps_/.opam/default/lib/ounit2/advanced -I /home/ricmaps_/.opam/default/lib/seq -I /home/ricmaps_/.opam/default/lib/sexplib0 -I /home/ricmaps_/.opam/default/lib/stdlib-shims -intf-suffix .ml -no-alias-deps -opaque -o .test.eobjs/native/list_ops.cmx -c -impl list_ops.ml)
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .test.eobjs/byte -I /home/ricmaps_/.opam/default/lib/base -I /home/ricmaps_/.opam/default/lib/base/base_internalhash_types -I /home/ricmaps_/.opam/default/lib/base/caml -I /home/ricmaps_/.opam/default/lib/base/shadow_stdlib -I /home/ricmaps_/.opam/default/lib/ocaml/unix -I /home/ricmaps_/.opam/default/lib/ounit2 -I /home/ricmaps_/.opam/default/lib/ounit2/advanced -I /home/ricmaps_/.opam/default/lib/seq -I /home/ricmaps_/.opam/default/lib/sexplib0 -I /home/ricmaps_/.opam/default/lib/stdlib-shims -no-alias-deps -opaque -o .test.eobjs/byte/test.cmo -c -impl test.ml)
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .test.eobjs/byte -I .test.eobjs/native -I /home/ricmaps_/.opam/default/lib/base -I /home/ricmaps_/.opam/default/lib/base/base_internalhash_types -I /home/ricmaps_/.opam/default/lib/base/caml -I /home/ricmaps_/.opam/default/lib/base/shadow_stdlib -I /home/ricmaps_/.opam/default/lib/ocaml/unix -I /home/ricmaps_/.opam/default/lib/ounit2 -I /home/ricmaps_/.opam/default/lib/ounit2/advanced -I /home/ricmaps_/.opam/default/lib/seq -I /home/ricmaps_/.opam/default/lib/sexplib0 -I /home/ricmaps_/.opam/default/lib/stdlib-shims -intf-suffix .ml -no-alias-deps -opaque -o .test.eobjs/native/test.cmx -c -impl test.ml)
+$ (cd _build/default && /home/ricmaps_/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -o test.exe /home/ricmaps_/.opam/default/lib/base/base_internalhash_types/base_internalhash_types.cmxa -I /home/ricmaps_/.opam/default/lib/base/base_internalhash_types /home/ricmaps_/.opam/default/lib/base/caml/caml.cmxa /home/ricmaps_/.opam/default/lib/sexplib0/sexplib0.cmxa /home/ricmaps_/.opam/default/lib/base/shadow_stdlib/shadow_stdlib.cmxa /home/ricmaps_/.opam/default/lib/base/base.cmxa -I /home/ricmaps_/.opam/default/lib/base /home/ricmaps_/.opam/default/lib/ocaml/unix/unix.cmxa /home/ricmaps_/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/ricmaps_/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/ricmaps_/.opam/default/lib/ounit2/oUnit.cmxa .test.eobjs/native/list_ops.cmx .test.eobjs/native/test.cmx)

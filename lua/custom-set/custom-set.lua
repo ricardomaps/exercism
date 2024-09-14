@@ -1,4 +1,4 @@
-Set = {}
+local Set = {}
 
 function new(...)
 	local t = {}
@@ -10,7 +10,7 @@ function new(...)
 end
 
 function Set:is_empty()
-	return table.getn(self) == 0
+	return next(self) == nil
 end
 
 function Set:contains(elem)

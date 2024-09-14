@@ -6,22 +6,26 @@ defmodule BinarySearchTree do
   """
   @spec new(any) :: bst_node
   def new(data) do
-    # Your implementation here
+    %{data: data, left: nil, right: nil}
   end
 
   @doc """
   Creates and inserts a node with its value as 'data' into the tree.
   """
   @spec insert(bst_node, any) :: bst_node
-  def insert(tree, data) do
-    # Your implementation here
+  def insert(nil, data), do: new(data)
+  def insert(tree, data) when tree.data < data do
+    %{tree | right: insert(tree.right, data)}
   end
-
+  def insert(tree, data) do
+    %{tree | left: insert(tree.left, data)}
+  end
   @doc """
   Traverses the Binary Search Tree in order and returns a list of each node's data.
   """
   @spec in_order(bst_node) :: [any]
+  def in_order(nil), do: []
   def in_order(tree) do
-    # Your implementation here
+    in_order(tree.left) ++ [tree.data] ++ in_order(tree.right)  
   end
 end
