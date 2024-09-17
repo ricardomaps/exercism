@@ -5,20 +5,25 @@ defmodule School do
   Each student is in a grade.
   """
 
-  @type school :: any()
+  @type school :: %__MODULE__{}
+  defstruct [students: %{}, grades: %{}]
 
   @doc """
   Create a new, empty school.
   """
   @spec new() :: school
-  def new() do
-  end
+  def new(), do: %{}
 
   @doc """
   Add a student to a particular grade in school.
   """
   @spec add(school, String.t(), integer) :: {:ok | :error, school}
   def add(school, name, grade) do
+    if Map.has_key?(school, name) do
+      {:error, school}
+    else
+      {:ok, Map.put(school, name, grade)}
+   end
   end
 
   @doc """
@@ -26,6 +31,10 @@ defmodule School do
   """
   @spec grade(school, integer) :: [String.t()]
   def grade(school, grade) do
+    school
+    |> Enum.filter(fn {_n, g} -> g == grade end )
+    |> Enum.map(&elem(&1, 0))
+    |> Enum.sort()
   end
 
   @doc """
@@ -33,5 +42,8 @@ defmodule School do
   """
   @spec roster(school) :: [String.t()]
   def roster(school) do
+    school
+    |> Enum.sort_by(fn {name, grade} -> {grade, name} end)
+    |> Enum.map(&elem(&1, 0))
   end
 end
