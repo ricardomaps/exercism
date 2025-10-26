@@ -1,0 +1,1 @@
+[.phrase | ascii_downcase | split("") | .[] | select(. | test("[a-z]"))] | length == (unique | length)
